@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{
+    padding-left: 20px; padding-top: 40px; padding-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+a{
+    text-decoration: none;
+}
+h1{
+    font-size: 48px;
+}
+h2{
+    font-size: 36px;
+}
+h3{
+    font-size: 18px;
+}
+h5{
+    font-size: 14px;
+    color: #d0011b;
+}
+span{
+    font-size: 10px;
+    color: #d0011b;
+}
+
+.logo a{
+    font-size: 30px;
+    font-weight: 800;
+    color: #000000;
+}
+.hero{
+    margin-top: 70px;
+}
+.hero p{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 1.8;
+    padding-bottom: 30px;
+}
+a.find-solutions{
+    margin-top: 20px; 
+    background-color: #d0011b;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    border: 1px solid #d0011b;
+    color:#ffffff;
+    border-radius: 16px;
+}
+.picture-header{
+    visibility: visible;
+    position: relative;
+}
+.access{
+    visibility: hidden
+}
+.dark-red span{
+    visibility: hidden;
+
+}
+.access-button span{
+    visibility: hidden;
+}
+.ion-navicon-round{
+    position: absolute;
+    left: 275px; bottom: 835px;
+    font-size: 30px;
+}
+.ion-navicon-round>
+.doctor{
+    visibility: visible;
+    text-align: center;
+}
+.section-one{
+    margin-top: 50px;
+    background-color: #f7f6fe;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    overflow: scroll;
+    align-items: flex-start;
+}
+.opening-hours{
+    background-color: #d0011b; 
+    border-radius: 16px;  
+    padding: 45px; 
+}
+.opening-hours-heading{
+    font-size: 20px;
+    color: #ffffff;
+    display: flex;
+}
+.opening-hours-heading span{
+    font-size: 40px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+.opening-hours p{
+    font-size: 16px;
+    color: #ffffff;
+}
+.approved-hours{
+    border-radius: 16px; 
+    padding: 45px;
+    margin-left: 40px;
+}
+.approved-hours-heading{
+    font-size: 20px;
+    color: #000000;
+    display: flex;
+}
+.approved-hours p{
+    font-size: 16px;
+    color: #000000;
+}
+.approved-hours-heading span{
+    font-size: 40px;
+    color: #d0011b;
+    margin-left: 40px;
+}
+.select{
+    background-color: #d0011b;
+    border: 1px solid #d0011b;
+    border-radius: 16px;
+    padding: 10px;
+ }
+.select a{
+    color: #ffffff;
+    font-size: 16px;
+}
+.find-doctors{
+    border-radius: 16px; 
+    padding: 45px;
+    margin-left: 40px;
+}
+.find-doctors-heading{
+    font-size: 20px;
+    color: #000000;
+    display: flex;
+}
+.find-doctors p{
+    font-size: 16px;
+    color: #000000;
+}
+.find-doctors-heading span{
+    font-size: 40px;
+    color: #d0011b;
+    margin-left: 40px;
+}
+.find-locations{
+    border-radius: 16px; 
+    padding: 45px;
+    margin-left: 40px; 
+}
+.find-locations-heading{
+    font-size: 20px;
+    color: #000000;
+    display: flex;
+}
+.find-locations p{
+    font-size: 16px;
+    color: #000000;
+}
+.find-locations-heading span{
+    font-size: 40px;
+    color: #d0011b;
+    margin-left: 40px;
+}
+.section-two{
+    margin-top: 40px;
+}
+.section-two p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.video-container{
+    position:relative;
+    z-index: 1;
+    border-radius: 16px;
+}
+.video{
+    min-width: 100%;
+    min-height: 100%;
+    flex: none;
+    object-fit: cover;
+}
+.play-background{
+   position: absolute;
+   z-index: 2;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   top: 0; left: 0; right: 0 ; bottom: 0;
+}
+.play-background span{
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #d0011b;
+    padding-left: 10px; padding-right: 10px;
+}
+.right{
+    margin-top: 40px;
+}
+.right h2{
+    margin-top: 25px;
+}
+.learn{
+    background-color: #f7f6fe;
+    border-radius: 56px;
+    border: 1px solid #f7f6fe;
+    margin-left: 30px; margin-top: 10px;
+}
+.learn a{
+    color: #d0011b;
+    font-size: 16px;
+}
+.learn:hover{
+    background-color: #9f1819;
+}
+.learn a:hover{
+    color: #f7f6fe
+}
+.section-three{
+    margin-top: 70px;
+}
+.section-three-heading{
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+    margin-top: 20px;
+}
+.first-row{
+    display: flex;
+    justify-content: space-between;
+}
+.second-row{
+    display: flex;
+    justify-content: space-between;
+}
+.dental{
+    width:50px;
+    align-self: center;
+}
+.pharmacy{
+    width:50px;
+    align-self: center;
+}
+.button-one{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #d0011b;
+    padding: 45px;
+    border-radius: 15px;
+}
+.button-one span{
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.button-two{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.button-two span{
+    color: #d0011b;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.button-three{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.button-three span{
+    color: #d0011b;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.button-four{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    flex-shrink: 0;
+    margin-left: 20px;
+}
+.button-four span{
+    color: #d0011b;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.button-five{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
+    padding: 30px;
+    margin-left: 20px;
+}
+.button-five span{
+    color: #d0011b;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.button-six{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.button-six span{
+    color: #d0011b;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.dental-care{
+    margin-top: 50px;
+}
+.dental-care p{
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.section-four{
+    margin-top: 90px;
+}
+.section-four h2{
+    margin-top: 10px;
+}
+.section-four p{
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.surgery{
+    width: 305px;
+    align-self: center;
+    border-radius: 15px;   
+}
+.online-appointment{
+    background-color: #f9e71e;
+    border-radius: 15px;
+    margin-top: -25px;
+    padding: 60px;
+}
+.online-appointment p{
+    padding-bottom: 30px;
+}
+a.book-now{
+    margin-top: 30px;
+    background-color: #f59e30;
+    border-radius: 16px;
+    padding: 10px;
+    border: 1px solid #f59e30;
+    width: 10%;
+    color: #ffffff;
+}
+.calendar{
+    width: 300px;
+    align-self: center;
+    margin-top: 60px;
+}
+.section-five-b{
+    margin-top: 70px;
+}
+.section-five-b p{
+    margin-top: 15px;
+    line-height: 1.5;
+}
+.section-five-b h2{
+    margin-top: 20px;
+}
+a.schedule{
+    background-color: #d0011b;
+    border-radius: 16px;
+    padding: 10px;
+    border: 1px solid #d0011b;
+    width: 10%;
+    color: #ffffff;
+}
+.lorem{
+    padding-bottom: 30px;
+}
+.section-six{
+    margin-top: 80px;
+}
+.section-six-heading{
+    text-align: center;
+}
+.images{
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+}
+.pp1{
+    width: 250px;
+}
+.pp2{
+    width: 250px;
+}
+.pp3{
+    width: 248px;
+}
+.frank-micheal{
+    text-align:  center;
+}
+.frank-micheal span{
+    font-size: 14px;
+}
+.alice-james{
+    text-align: center;
+}
+.alice-james span{
+    font-size: 14px;
+}
+.samuel-king{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.samuel-king span{
+    font-size: 14px;
+}
+.button-container{
+   text-align: center;
+   padding-bottom: 45px;
+}
+.last-button{
+    margin-top: 50px; 
+    background-color: #d0011b;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #d0011b;
+    color:#ffffff;
+}
+
+.play_button {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(#9f1819 60%, rgba(255, 255, 255, 1) 62%);
+    border-radius: 50%;
+    position: relative;
+    top: -266px;
+    display: block;
+    margin: 100px auto;
+    box-shadow: 0px 0px 25px 3px #9f1819;
+}
+
+.play_button::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%) translateY(-50%);
+    transform-origin: center center;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 25px solid #fff;
+    z-index: 100;
+    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19)
+}
+
+.menu {
+    flex: 80%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.logo {
+    flex: 20%;
+}
+
+.nav-bar a {
+    font-size: 15px;
+    opacity: 0.7;
+    color: black;
+}
+
+a:hover {
+    color: #d0011b;
+  }
